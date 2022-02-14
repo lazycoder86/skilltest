@@ -4,8 +4,10 @@ Release Information
 *******************
 I used the CodeIgniter 3 framework because is easy to demonstrate and test my PHP coding skills.
 Because of the time limit, I used a third party REST Server API for Codeigniter. Please see the resources section.
+
 The API is working.
 `Short video: <https://www.loom.com/share/373219a41419429db5cddce254ba43bb>`_
+
 I disabled API auth so that we could easily test the API endpoint. In the API controller function, the CSV path is set statically.
 The API class is located in the application/controller directory. In the "application/libraries" folder, I created an ImageLibrary class that will handle reading csv data and converting it to JSON.
 
@@ -27,6 +29,11 @@ Installation
 
 Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
 of the CodeIgniter User Guide.
+
+Run:
+composer install
+
+
 
 
 *********
